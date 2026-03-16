@@ -1,0 +1,62 @@
+{
+  "url": "https://www.thermofisher.com/us/en/home/order.html",
+  "timestamp": "2026-03-10T17:40:02.316Z",
+  "paths": {
+    "documentPath": "content/us/en/home/order",
+    "htmlFilePath": "content/us/en/home/order.plain.html",
+    "mdFilePath": "content/us/en/home/order.md",
+    "dirPath": "content/us/en/home",
+    "filename": "order",
+    "previewPath": "/us/en/home/order"
+  },
+  "screenshot": "migration-work/screenshot.png",
+  "html": {
+    "filePath": "migration-work/cleaned.html",
+    "size": 944783
+  },
+  "metadata": {
+    "title": "Shop All Products | Thermo Fisher Scientific - US",
+    "description": "Browse our complete online catalog of analytical instruments, laboratory equipment and supplies, and protein, cell and molecular biology reagents and assays.",
+    "robots": "index,follow",
+    "DC.title": "Shop All Products - US",
+    "baidu-site-verification": "codeva-AlvwygfY0A",
+    "sogou_site_verification": "wdyDZ0DQ8G",
+    "og:title": "Shop All Products | Thermo Fisher Scientific - US",
+    "og:type": "website",
+    "og:url": "https://www.thermofisher.com/us/en/home/order.html",
+    "og:description": "Browse our complete online catalog of analytical instruments, laboratory equipment and supplies, and protein, cell and molecular biology reagents and assays.",
+    "og:locale": "en_US",
+    "og:image": "https://www.thermofisher.com",
+    "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+    "canonical": "https://www.thermofisher.com/us/en/home/order.html"
+  },
+  "images": {
+    "count": 16,
+    "mapping": {
+      "https://www.thermofisher.com/store/global-header-footer-static/global/svg/external-link-bold.svg": "./images/f1408f00734f4b540a2dc4eb76bb9544.png",
+      "https://www.thermofisher.com/store/global-header-footer-static/global/images/flags/us.gif": "./images/bcee0069ad4f4b36d1c2a47e74052c25.png",
+      "https://consent-insights-3c23a978f31a.herokuapp.com/api/v1/visits/capture?api_key=CI-3929813243&secret=810274278902470721624405905887912991104270295366493143855663183685375235160482241511078341257235422202822656000&country=us&language=en&visit_id=ed8c11a9-2043-4a77-964c-b473aee7433d&ut=NEW&ua=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F145.0.7632.6+Safari%2F537.36&title=Shop+All+Products+%7C+Thermo+Fisher+Scientific+-+US&url=https%3A%2F%2Fwww.thermofisher.com%2Fus%2Fen%2Fhome%2Forder.html": "./images/8fdf5c030d319f8bb0a44fcbf5cc898f.png",
+      "https://www.thermofisher.com/content/dam/tfsite/images/l1pages/products/Clinical%20&%20Diagnostics%20Image.png": "./images/067056b94c57f4ddc00b20f4db31de1b.png",
+      "https://dm-images.thermofisher.com/is/image/thermofisherscientific/OF-13442301-WB-MD-FP-V2-1224x578%3Athermofisher-smart-dm-web-MD_FP?ts=1770073481357&dpr=on,1": "./images/0c269e410cfa8aa00b47505fed2923b7.jpg",
+      "https://dm-images.thermofisher.com/is/image/thermofisherscientific/wb49199_md_fp_1224x578%3Athermofisher-smart-dm-web-MD_FP?ts=1768601378939&dpr=on,1": "./images/ea11f97dc17af06218eb6a8af7019a11.jpg",
+      "https://consent-insights-3c23a978f31a.herokuapp.com/api/v1/impressions/capture?api_key=CI-3929813243&secret=810274278902470721624405905887912991104270295366493143855663183685375235160482241511078341257235422202822656000&country=us&language=en&visit_id=ed8c11a9-2043-4a77-964c-b473aee7433d&ut=NEW&ua=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F145.0.7632.6+Safari%2F537.36&title=Shop+All+Products+%7C+Thermo+Fisher+Scientific+-+US&url=https%3A%2F%2Fwww.thermofisher.com%2Fus%2Fen%2Fhome%2Forder.html": "./images/70b272a59f4e1b68fe555da2b669f92c.png",
+      "https://www.thermofisher.com/search/searchbar/resources/images/chosen-sprite@2x.png": "./images/6c3c3f7990748b52f004a4781ae944a5.png",
+      "https://www.thermofisher.com/content/dam/tfsite/images/l1pages/products/Laboratory%20Equipment%20Image.png": "./images/5f70bd0b5d3cf4e3f5f080bb5c9424e9.png",
+      "https://www.thermofisher.com/content/dam/tfsite/images/l1pages/products/Chemicals%20Image.png": "./images/e5381f1c248824343aff9f90e97aaa4c.png",
+      "https://www.thermofisher.com/content/dam/LifeTech/global/shared/images/feedback/givefeedback-en.jpg": "./images/0eca0ece0936d6cd92192ed73f0e2999.png",
+      "https://cdn.userway.org/widgetapp/images/body_wh.svg": "./images/5553f62072ee0231a8a26d445c22fbf2.png",
+      "https://cdn.userway.org/widgetapp/images/spin_wh.svg": "./images/00cf824b003f76467fc970080266febb.png",
+      "https://www.thermofisher.com/content/dam/tfsite/images/l1pages/products/Protein%20&%20Cell%20Analysis%20Image.png": "./images/14c6d38bebcba4439c7aa9c0d5edf875.png",
+      "https://www.thermofisher.com/content/dam/tfsite/images/l1pages/products/BAN-13542210_8192x1888-HPTakeoverBanner.jpg": "./images/13ace76e41b9b84a766db33247d3bcd2.png",
+      "https://www.thermofisher.com/content/dam/tfsite/images/l1pages/products/Molecular%20Biology%20&%20Nucleic%20Acid%20Analysis%20Image.png": "./images/7703b5d94d73483bc475bfa3f5adcde8.png"
+    },
+    "stats": {
+      "total": 16,
+      "converted": 12,
+      "skipped": 4,
+      "failed": 0,
+      "tooLarge": 0,
+      "limitReached": 0
+    }
+  }
+}

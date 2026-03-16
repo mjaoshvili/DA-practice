@@ -1,0 +1,319 @@
+{
+  "url": "https://www.thermofisher.com/us/en/home/order.html",
+  "title": "Shop All Products | Thermo Fisher Scientific - US",
+  "sections": [
+    {
+      "id": "section-1-hero",
+      "name": "Hero",
+      "selector": ".cmp-p-pageheadinghero.m--dark",
+      "style": "dark",
+      "description": "Page hero with breadcrumb (Home > Products), H1 heading 'Shop All Products', subtitle 'Stay stocked. Keep moving forward.', and CTA button 'Learn more'. Dark purple/blue background with microscopy imagery.",
+      "contentSequences": [
+        {
+          "id": "cs-1-1",
+          "type": "hero",
+          "description": "Breadcrumb navigation, H1 title, subtitle text, and primary CTA button over dark background image",
+          "elements": [
+            "nav.cmp-breadcrumb (Home > Products)",
+            "h1.cmp-pageheading__text (Shop All Products)",
+            "div.cmp-textoverlay__subtitle (Stay stocked. Keep moving forward.)",
+            "a.cmp-ctaitem__anchor (Learn more)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2-quick-actions",
+      "name": "Quick Action Buttons",
+      "selector": "#container-e64f57ed42",
+      "style": null,
+      "description": "Row of three secondary CTA buttons: Promotions, New products, Order other. Arranged in 3 equal columns.",
+      "contentSequences": [
+        {
+          "id": "cs-2-1",
+          "type": "cta-row",
+          "description": "Three equally-spaced secondary buttons for quick navigation",
+          "elements": [
+            "a (Promotions)",
+            "a (New products)",
+            "a (Order other)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3-toc",
+      "name": "Table of Contents Sidebar",
+      "selector": ".cmp-p-accordion.m--left-rail",
+      "style": null,
+      "description": "Left sidebar accordion containing 10 anchor links to product category sections. Sticky positioning.",
+      "contentSequences": [
+        {
+          "id": "cs-3-1",
+          "type": "anchor-nav",
+          "description": "Collapsible table of contents with anchor links to each product category section",
+          "elements": [
+            "Accordion title: Table of contents",
+            "10 anchor links to H2 category sections"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-4-lab-supplies",
+      "name": "Laboratory Supplies",
+      "selector": "#sectioncontainer-4036825e76",
+      "style": null,
+      "description": "Product category section with H2 heading, 3-column grid of ~15 product subcategory links, separator, and banner image before next section.",
+      "contentSequences": [
+        {
+          "id": "cs-4-1",
+          "type": "category-heading",
+          "description": "Section title H2",
+          "elements": ["h2#lab-supplies (Laboratory supplies)"]
+        },
+        {
+          "id": "cs-4-2",
+          "type": "link-grid",
+          "description": "3-column grid of product subcategory links (Beakers and Lids, Bottles Jars and Jugs, Boxes, Burettes, Carboys, Cell Culture Utensils, Clamps and Supports, etc.)",
+          "elements": ["~15 product subcategory links arranged in 3 columns"]
+        },
+        {
+          "id": "cs-4-3",
+          "type": "separator-and-image",
+          "description": "Horizontal rule separator followed by banner image for next category",
+          "elements": ["hr separator", "img (Laboratory Equipment banner image)"]
+        }
+      ]
+    },
+    {
+      "id": "section-5-lab-equipment",
+      "name": "Laboratory Equipment",
+      "selector": "#sectioncontainer-c8d52c4e6f",
+      "style": null,
+      "description": "Product category section with H2, 3-column link grid (~20 subcategory links), separator.",
+      "contentSequences": [
+        {
+          "id": "cs-5-1",
+          "type": "category-heading",
+          "description": "Section title",
+          "elements": ["h2#lab-equipment (Laboratory equipment)"]
+        },
+        {
+          "id": "cs-5-2",
+          "type": "link-grid",
+          "description": "3-column grid of product subcategory links (Baths, Bioprocess Systems, Centrifuges, Cold Storage Products, Desiccators, Evaporators, etc.)",
+          "elements": ["~20 product subcategory links in 3-column layout"]
+        },
+        {
+          "id": "cs-5-3",
+          "type": "separator-and-image",
+          "description": "Horizontal rule and banner image",
+          "elements": ["hr separator", "img (Laboratory Instruments banner image)"]
+        }
+      ]
+    },
+    {
+      "id": "section-6-lab-instruments",
+      "name": "Laboratory Instruments",
+      "selector": "sectioncontainer for h2#lab-instruments",
+      "style": null,
+      "description": "Product category section with H2, 3-column link grid (~15 subcategory links).",
+      "contentSequences": [
+        {
+          "id": "cs-6-1",
+          "type": "category-heading",
+          "description": "Section title",
+          "elements": ["h2#lab-instruments (Laboratory instruments)"]
+        },
+        {
+          "id": "cs-6-2",
+          "type": "link-grid",
+          "description": "3-column grid of product subcategory links (Cellular Imaging, Chromatography Systems, Electron Microscopes, etc.)",
+          "elements": ["~15 product subcategory links in 3-column layout"]
+        }
+      ]
+    },
+    {
+      "id": "section-7-clinical",
+      "name": "Clinical and Diagnostics",
+      "selector": "sectioncontainer for h2#clinical",
+      "style": null,
+      "description": "Product category section with H2, category banner image (Clinical & Diagnostics), 2-column subcategory link grid.",
+      "contentSequences": [
+        {
+          "id": "cs-7-1",
+          "type": "category-heading",
+          "description": "Section title",
+          "elements": ["h2#clinical (Clinical and diagnostics)"]
+        },
+        {
+          "id": "cs-7-2",
+          "type": "link-grid",
+          "description": "2-column grid of product subcategory links",
+          "elements": ["Product subcategory links in 2-column layout"]
+        }
+      ]
+    },
+    {
+      "id": "section-8-chromatography",
+      "name": "Chromatography and Mass Spectrometry",
+      "selector": "sectioncontainer for h2#chromatography",
+      "style": null,
+      "description": "Product category section with H2 and 2-column subcategory link grid.",
+      "contentSequences": [
+        {
+          "id": "cs-8-1",
+          "type": "category-heading",
+          "description": "Section title",
+          "elements": ["h2#chromatography (Chromatography and mass spectrometry)"]
+        },
+        {
+          "id": "cs-8-2",
+          "type": "link-grid",
+          "description": "2-column grid of product subcategory links",
+          "elements": ["Product subcategory links in 2-column layout"]
+        }
+      ]
+    },
+    {
+      "id": "section-9-chemicals",
+      "name": "Chemicals",
+      "selector": "sectioncontainer for h2#chemicals",
+      "style": null,
+      "description": "Largest product category section with H2, category banner image (Chemicals), 3-column link grid (~30+ subcategory links), separator.",
+      "contentSequences": [
+        {
+          "id": "cs-9-1",
+          "type": "category-heading",
+          "description": "Section title",
+          "elements": ["h2#chemicals (Chemicals)"]
+        },
+        {
+          "id": "cs-9-2",
+          "type": "link-grid",
+          "description": "3-column grid of many subcategory links (Acids, Acyl Halides, Biochemical Reagents, Buffers and Standards, etc.)",
+          "elements": ["~30+ product subcategory links in 3-column layout"]
+        }
+      ]
+    },
+    {
+      "id": "section-10-cell-culture",
+      "name": "Cell Culture",
+      "selector": "sectioncontainer for h2#cell-culture",
+      "style": null,
+      "description": "Product category section with H2 and 2-column subcategory link grid.",
+      "contentSequences": [
+        {
+          "id": "cs-10-1",
+          "type": "category-heading",
+          "description": "Section title",
+          "elements": ["h2#cell-culture (Cell culture)"]
+        },
+        {
+          "id": "cs-10-2",
+          "type": "link-grid",
+          "description": "2-column grid of product subcategory links (Antibiotics and Supplements, Bioprocessing Reagents, etc.)",
+          "elements": ["Product subcategory links in 2-column layout"]
+        }
+      ]
+    },
+    {
+      "id": "section-11-protein",
+      "name": "Protein and Cell Analysis",
+      "selector": "sectioncontainer for h2#protein",
+      "style": null,
+      "description": "Product category section with H2, category banner image (Protein & Cell Analysis), 3-column subcategory link grid.",
+      "contentSequences": [
+        {
+          "id": "cs-11-1",
+          "type": "category-heading",
+          "description": "Section title",
+          "elements": ["h2#protein (Protein and cell analysis)"]
+        },
+        {
+          "id": "cs-11-2",
+          "type": "link-grid",
+          "description": "3-column grid of product subcategory links (Antibodies, Biochemical Reagents, Buffers and Desalting, etc.)",
+          "elements": ["Product subcategory links in 3-column layout"]
+        }
+      ]
+    },
+    {
+      "id": "section-12-molecular-biology",
+      "name": "Molecular Biology and Nucleic Acid Analysis",
+      "selector": "sectioncontainer for h2#molecular-biology",
+      "style": null,
+      "description": "Product category section with H2, category banner image (Molecular Biology), 3-column subcategory link grid.",
+      "contentSequences": [
+        {
+          "id": "cs-12-1",
+          "type": "category-heading",
+          "description": "Section title",
+          "elements": ["h2#molecular-biology (Molecular biology and nucleic acid analysis)"]
+        },
+        {
+          "id": "cs-12-2",
+          "type": "link-grid",
+          "description": "3-column grid of product subcategory links",
+          "elements": ["Product subcategory links in 3-column layout"]
+        }
+      ]
+    },
+    {
+      "id": "section-13-sequence-specific",
+      "name": "Sequence-Specific Nucleic Acid Products",
+      "selector": "sectioncontainer for h2#sequence-specific",
+      "style": null,
+      "description": "Product category section with H2 and 3-column subcategory link grid.",
+      "contentSequences": [
+        {
+          "id": "cs-13-1",
+          "type": "category-heading",
+          "description": "Section title",
+          "elements": ["h2#sequence-specific (Sequence-specific nucleic acid products)"]
+        },
+        {
+          "id": "cs-13-2",
+          "type": "link-grid",
+          "description": "3-column grid of product subcategory links (CRISPR gRNAs, Custom DNA Oligos, etc.)",
+          "elements": ["Product subcategory links in 3-column layout"]
+        }
+      ]
+    },
+    {
+      "id": "section-14-promos",
+      "name": "Promotional Offers",
+      "selector": "#container-e34e5cb7fe",
+      "style": null,
+      "description": "Two side-by-side promotional offer cards. Left: 'Save $750 & get a Mystery Box' with image and 'Shop now' CTA. Right: 'Elevate your shopping with our AI assistant' with image, description, and 'Try it today' CTA.",
+      "contentSequences": [
+        {
+          "id": "cs-14-1",
+          "type": "promo-cards",
+          "description": "Two promotional cards in a 2-column layout with background images, headlines, and CTA buttons",
+          "elements": [
+            "Promo 1: Image + 'Save $750 & get a Mystery Box until 3/28/26*' + 'Shop now' CTA",
+            "Promo 2: Image + 'Elevate your shopping with our AI assistant' + description + 'Try it today' CTA"
+          ]
+        }
+      ]
+    }
+  ],
+  "blockInventory": {
+    "local": [
+      "accordion", "accordion-faq", "cards", "cards-article", "cards-icon-grid",
+      "carousel", "columns", "columns-cta", "columns-media", "embed", "footer",
+      "form", "fragment", "header", "hero", "modal", "quote", "search", "table",
+      "tabs", "tabs-showcase", "video"
+    ],
+    "blockCollection": [
+      "hero", "cards", "cards (no images)", "columns", "accordion", "carousel",
+      "table", "tabs", "search", "video", "embed"
+    ]
+  },
+  "excludedContent": {
+    "header": "Global header with navigation, search, account - auto-populated by header block",
+    "footer": "Global footer with link columns (Ordering, Support, Resources, About) - auto-populated by footer block"
+  }
+}

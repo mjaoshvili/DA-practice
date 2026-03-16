@@ -1,0 +1,38 @@
+{
+  "variantName": "cards-icon-grid",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-01-08T17:45:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://wknd-trendsetters.site",
+    "originPage": "homepage features section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "feature-grid",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + paragraph text",
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature grids with icons",
+      "service listings",
+      "benefit highlights"
+    ],
+    "notSuitableFor": [
+      "article listings with large images",
+      "product cards with detailed info"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-08T17:45:00.000Z"
+  }
+}

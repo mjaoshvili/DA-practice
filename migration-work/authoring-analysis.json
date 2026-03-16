@@ -1,0 +1,310 @@
+{
+  "url": "https://www.thermofisher.com/us/en/home/order.html",
+  "analysisComplete": true,
+  "authoringDecisions": [
+    {
+      "sectionId": "section-1-hero",
+      "sectionName": "Hero",
+      "sectionStyle": "dark",
+      "decisions": [
+        {
+          "sequenceId": "cs-1-1",
+          "decision": "block",
+          "blockName": "hero",
+          "rationale": "The page hero has a dark background image, H1 heading, subtitle, and CTA button. This maps directly to the standard EDS hero block. Breadcrumb is omitted as EDS handles this differently.",
+          "contentModel": {
+            "row1": "Background image (microscopy/science imagery)",
+            "row2": "H1: Shop All Products | Subtitle: Stay stocked. Keep moving forward. | CTA: Learn more (link to promotions page)"
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-2-quick-actions",
+      "sectionName": "Quick Action Buttons",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-2-1",
+          "decision": "default-content",
+          "blockName": null,
+          "rationale": "Three CTA buttons (Promotions, New products, Order other) are best authored as default content with styled links/buttons. An author simply writes three bold links in a paragraph. No block needed.",
+          "contentModel": {
+            "content": "Three paragraph links styled as secondary buttons: **[Promotions](url)** | **[New products](url)** | **[Order other](url)**"
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-3-toc",
+      "sectionName": "Table of Contents Sidebar",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-3-1",
+          "decision": "omit",
+          "blockName": null,
+          "rationale": "The sticky left-sidebar TOC with anchor links is a complex UI pattern that doesn't translate well to EDS authoring. EDS pages are simpler and linear. The category sections have clear H2 headings that provide natural wayfinding. Authors would find this very difficult to maintain in Word/Google Docs."
+        }
+      ]
+    },
+    {
+      "sectionId": "section-4-lab-supplies",
+      "sectionName": "Laboratory Supplies",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-4-1",
+          "decision": "default-content",
+          "blockName": null,
+          "rationale": "H2 heading is default content.",
+          "contentModel": { "content": "## Laboratory supplies" }
+        },
+        {
+          "sequenceId": "cs-4-2",
+          "decision": "block",
+          "blockName": "columns",
+          "rationale": "3-column grid of category links maps to a columns block. Each column contains a list of links. Clean authoring pattern for Word/Google Docs.",
+          "contentModel": {
+            "columns": 3,
+            "col1": "Beakers and Lids, Bottles Jars and Jugs, Boxes, Burettes, Carboys",
+            "col2": "Cell Culture Utensils, Clamps and Supports, Clinical Specimen Collection, Cuvets and Cells, Cylinders",
+            "col3": "Dishes, Environmental Samplers, Filters and Filtration, First Aid and Medical, Flasks and Accessories"
+          }
+        },
+        {
+          "sequenceId": "cs-4-3",
+          "decision": "default-content",
+          "blockName": null,
+          "rationale": "HR separator and category banner image are default content.",
+          "contentModel": { "content": "--- followed by ![Laboratory Equipment](image)" }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-5-lab-equipment",
+      "sectionName": "Laboratory Equipment",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-5-1",
+          "decision": "default-content",
+          "blockName": null,
+          "contentModel": { "content": "## Laboratory equipment" }
+        },
+        {
+          "sequenceId": "cs-5-2",
+          "decision": "block",
+          "blockName": "columns",
+          "rationale": "Same pattern - 3-column grid of links.",
+          "contentModel": { "columns": 3 }
+        },
+        {
+          "sequenceId": "cs-5-3",
+          "decision": "default-content",
+          "blockName": null,
+          "contentModel": { "content": "--- and banner image" }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-6-lab-instruments",
+      "sectionName": "Laboratory Instruments",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-6-1",
+          "decision": "default-content",
+          "blockName": null,
+          "contentModel": { "content": "## Laboratory instruments" }
+        },
+        {
+          "sequenceId": "cs-6-2",
+          "decision": "block",
+          "blockName": "columns",
+          "rationale": "Same pattern - 3-column grid of links.",
+          "contentModel": { "columns": 3 }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-7-clinical",
+      "sectionName": "Clinical and Diagnostics",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-7-1",
+          "decision": "default-content",
+          "blockName": null,
+          "contentModel": { "content": "## Clinical and diagnostics" }
+        },
+        {
+          "sequenceId": "cs-7-2",
+          "decision": "block",
+          "blockName": "columns",
+          "rationale": "Link grid with 2 columns.",
+          "contentModel": { "columns": 2 }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-8-chromatography",
+      "sectionName": "Chromatography and Mass Spectrometry",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-8-1",
+          "decision": "default-content",
+          "blockName": null,
+          "contentModel": { "content": "## Chromatography and mass spectrometry" }
+        },
+        {
+          "sequenceId": "cs-8-2",
+          "decision": "block",
+          "blockName": "columns",
+          "rationale": "Link grid with 2 columns.",
+          "contentModel": { "columns": 2 }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-9-chemicals",
+      "sectionName": "Chemicals",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-9-1",
+          "decision": "default-content",
+          "blockName": null,
+          "contentModel": { "content": "## Chemicals" }
+        },
+        {
+          "sequenceId": "cs-9-2",
+          "decision": "block",
+          "blockName": "columns",
+          "rationale": "Largest section - 3-column grid of ~30+ subcategory links.",
+          "contentModel": { "columns": 3 }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-10-cell-culture",
+      "sectionName": "Cell Culture",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-10-1",
+          "decision": "default-content",
+          "blockName": null,
+          "contentModel": { "content": "## Cell culture" }
+        },
+        {
+          "sequenceId": "cs-10-2",
+          "decision": "block",
+          "blockName": "columns",
+          "rationale": "Link grid with 2 columns.",
+          "contentModel": { "columns": 2 }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-11-protein",
+      "sectionName": "Protein and Cell Analysis",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-11-1",
+          "decision": "default-content",
+          "blockName": null,
+          "contentModel": { "content": "## Protein and cell analysis" }
+        },
+        {
+          "sequenceId": "cs-11-2",
+          "decision": "block",
+          "blockName": "columns",
+          "rationale": "3-column grid of subcategory links.",
+          "contentModel": { "columns": 3 }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-12-molecular-biology",
+      "sectionName": "Molecular Biology and Nucleic Acid Analysis",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-12-1",
+          "decision": "default-content",
+          "blockName": null,
+          "contentModel": { "content": "## Molecular biology and nucleic acid analysis" }
+        },
+        {
+          "sequenceId": "cs-12-2",
+          "decision": "block",
+          "blockName": "columns",
+          "rationale": "3-column grid of subcategory links.",
+          "contentModel": { "columns": 3 }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-13-sequence-specific",
+      "sectionName": "Sequence-Specific Nucleic Acid Products",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-13-1",
+          "decision": "default-content",
+          "blockName": null,
+          "contentModel": { "content": "## Sequence-specific nucleic acid products" }
+        },
+        {
+          "sequenceId": "cs-13-2",
+          "decision": "block",
+          "blockName": "columns",
+          "rationale": "3-column grid of subcategory links.",
+          "contentModel": { "columns": 3 }
+        }
+      ]
+    },
+    {
+      "sectionId": "section-14-promos",
+      "sectionName": "Promotional Offers",
+      "sectionStyle": null,
+      "decisions": [
+        {
+          "sequenceId": "cs-14-1",
+          "decision": "block",
+          "blockName": "cards",
+          "rationale": "Two promotional cards with images, headlines, descriptions, and CTAs map well to the cards block. Each card has image + heading + CTA. Renders as responsive grid matching the 2-across layout.",
+          "contentModel": {
+            "card1": {
+              "image": "Promo image (savings/mystery box)",
+              "heading": "Save $750 & get a Mystery Box until 3/28/26*",
+              "cta": "Shop now"
+            },
+            "card2": {
+              "image": "Promo image (AI assistant)",
+              "heading": "Elevate your shopping with our AI assistant",
+              "description": "Fast and accurate answers to your product questions, intuitive and natural interactions, and seamless support",
+              "cta": "Try it today"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "blockSummary": {
+    "hero": 1,
+    "columns (default)": 10,
+    "cards": 1,
+    "defaultContent": "H2 headings (10x), separator lines, category banner images, CTA button row",
+    "omitted": "Table of Contents sidebar (too complex for EDS authoring)",
+    "note": "All columns instances use the default variant - no new variant needed. Author controls 2 vs 3 columns by adding cells to the table."
+  },
+  "metadata": {
+    "title": "Shop All Products | Thermo Fisher Scientific - US",
+    "description": "Browse our complete online catalog of analytical instruments, laboratory equipment and supplies, and protein, cell and molecular biology reagents and assays.",
+    "og:image": "https://www.thermofisher.com"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": ["https://www.thermofisher.com/us/en/home.html"],
+      "description": "Main site homepage with hero carousel, education cards, blog posts, online offers carousel, promotions grid, and new products grid",
+      "blocks": []
+    },
+    {
+      "name": "category-landing",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/life-science.html",
+        "https://www.thermofisher.com/us/en/home/industrial.html",
+        "https://www.thermofisher.com/us/en/home/chemicals.html",
+        "https://www.thermofisher.com/us/en/home/bioprocessing.html",
+        "https://www.thermofisher.com/us/en/home/electron-microscopy.html",
+        "https://www.thermofisher.com/us/en/home/semiconductors.html",
+        "https://www.thermofisher.com/us/en/home/biotech.html",
+        "https://www.thermofisher.com/us/en/home/applications-techniques.html"
+      ],
+      "description": "Legacy AEM full-width category landing page with mondrian hero, sub-category card grids, and promotional offers. Uses parsys-based components. ~8 instances including newly discovered electron-microscopy and semiconductors sections.",
+      "blocks": []
+    },
+    {
+      "name": "sub-category",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/life-science/antibodies.html",
+        "https://www.thermofisher.com/us/en/home/life-science/pcr.html",
+        "https://www.thermofisher.com/us/en/home/life-science/cell-culture.html",
+        "https://www.thermofisher.com/us/en/home/clinical/cell-gene-therapy.html",
+        "https://www.thermofisher.com/us/en/home/clinical/diagnostic-testing.html",
+        "https://www.thermofisher.com/us/en/home/digital-solutions/lab-informatics.html"
+      ],
+      "description": "New AEM sub-category page with page-heading hero, section containers, teaser cards, CTA lists, and text-image blocks. Uses cmp-* component library, full-width, no sidebar. ~200+ pages across life-science, clinical, digital-solutions, and industrial sub-sections.",
+      "blocks": []
+    },
+    {
+      "name": "product-detail",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/life-science/cell-analysis/flow-cytometry/flow-cytometers/attune-nxt-flow-cytometer.html",
+        "https://www.thermofisher.com/us/en/home/life-science/sequencing/next-generation-sequencing/ion-torrent-next-generation-sequencing-workflow/ion-torrent-next-generation-sequencing-run-sequence/ion-torrent-genexus-system.html",
+        "https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-systems/orbitrap-lc-ms/orbitrap-astral-zoom-mass-spectrometer.html"
+      ],
+      "description": "Product detail page with foreground-image hero, product sub-navigation bar (Overview/Features/Models/etc.), teaser sections, and CTA items. Uses cmp-* system with cmp-p-manualnav. Found at depth 4-6 across life-science and industrial sections.",
+      "blocks": []
+    },
+    {
+      "name": "brand-landing",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/brands/thermo-scientific.html",
+        "https://www.thermofisher.com/us/en/home/brands/applied-biosystems.html",
+        "https://www.thermofisher.com/us/en/home/brands/gibco.html",
+        "https://www.thermofisher.com/us/en/home/brands/invitrogen.html",
+        "https://www.thermofisher.com/us/en/home/brands/ion-torrent.html",
+        "https://www.thermofisher.com/us/en/home/brands/olink-proteomics-protein-biomarker-analysis.html"
+      ],
+      "description": "Legacy AEM brand landing page with left sidebar navigation (popular products, applications, resources), anchor-nav main content, and multi-column link lists. 82 URLs discovered under /brands/ including sub-brand product pages.",
+      "blocks": []
+    },
+    {
+      "name": "support-how-to",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/support/how-to-place-orders.html",
+        "https://www.thermofisher.com/us/en/home/support/how-to-register-for-account.html",
+        "https://www.thermofisher.com/us/en/home/support/how-to-manage-orders.html",
+        "https://www.thermofisher.com/us/en/home/support/how-to-apply-promo-quote-codes.html"
+      ],
+      "description": "Support how-to page with foreground-image hero, sticky anchor navigation list, and sequential text-heavy instructional sections with screenshots. Uses cmp-* system with cmp-anchorlist. 11 pages under /support/.",
+      "blocks": []
+    },
+    {
+      "name": "support-center",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/technical-resources/technical-reference-library/pcr-cdna-synthesis-support-center.html",
+        "https://www.thermofisher.com/us/en/home/technical-resources/technical-reference-library/cell-culture-support-center.html",
+        "https://www.thermofisher.com/us/en/home/technical-resources/technical-reference-library/cell-analysis-support-center.html"
+      ],
+      "description": "Technical support center hub with left sidebar navigation and main content area with sub-topic card grids. Legacy AEM with complementary sidebar. 26 URLs under /technical-resources/ including ~20 support centers with sub-pages (e.g., cell-analysis-support-center has 12 sub-topic pages).",
+      "blocks": []
+    },
+    {
+      "name": "promotions",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/products-and-services/promotions.html"
+      ],
+      "description": "Promotions listing page with page heading, featured promo hero cards, filter buttons (All/Percentage Off/Special Deal/Funding), and dynamic merchandising offer card grid with promo badges.",
+      "blocks": []
+    },
+    {
+      "name": "events-listing",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/events.html"
+      ],
+      "description": "Events and webinars listing page with search/filter box and table-based event listing showing title, date, location, description, and thumbnail for each event.",
+      "blocks": []
+    },
+    {
+      "name": "event-detail",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/events/slas-2026.html",
+        "https://www.thermofisher.com/us/en/home/events/uscap.html",
+        "https://www.thermofisher.com/us/en/home/events/webinar-catalysis.html",
+        "https://www.thermofisher.com/us/en/home/events/ai-image-data-analysis-life-sciences.html"
+      ],
+      "description": "Individual event/webinar detail page with event-specific hero, date/location info, description, registration CTA, and related content. 7 instances discovered under /events/.",
+      "blocks": []
+    },
+    {
+      "name": "legal-policy",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/global/terms-and-conditions.html",
+        "https://www.thermofisher.com/us/en/home/global/privacy-policy.html",
+        "https://www.thermofisher.com/us/en/home/global/policies-notices.html",
+        "https://www.thermofisher.com/us/en/home/global/policies-notices/accessibility.html"
+      ],
+      "description": "Legal/policy text page with left sidebar navigation (related legal pages) and text-heavy main content with paragraphs, lists, and PDF links. Legacy AEM with complementary sidebar. 43 URLs under /global/ including sub-policies.",
+      "blocks": []
+    },
+    {
+      "name": "gated-form",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/global/forms/mol-bio-handbook-download-request-form.html",
+        "https://www.thermofisher.com/us/en/home/global/forms/evos-imaging-system-quote-demo.html",
+        "https://www.thermofisher.com/us/en/home/global/forms/how-can-our-scientists-help-you.html",
+        "https://www.thermofisher.com/us/en/home/global/forms/life-science/covid19-testing-solutions-webinars.html"
+      ],
+      "description": "Gated content form page for webinar registration, resource downloads, and quote requests. Contains form fields (name, email, company) and content description. 17 URLs discovered under /global/forms/.",
+      "blocks": []
+    },
+    {
+      "name": "order",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/order.html"
+      ],
+      "description": "Product ordering hub with hero, tabs container (5 tabs: Select system, Handbook, Webinars, Publications, Technical resources), product-list with pricing/add-to-cart, and data-list tables.",
+      "blocks": []
+    },
+    {
+      "name": "image-gallery",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/technical-resources/research-tools/image-gallery.html"
+      ],
+      "description": "Masonry image gallery with category dropdown filter, displaying 100+ scientific images as filterable tiles. Spreadsheet-backed content.",
+      "blocks": []
+    },
+    {
+      "name": "data-list",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/technical-resources/cell-lines.html"
+      ],
+      "description": "Filterable data table page with left sidebar facet filters (tissue type, tissue, primary), search bar, and large sortable table (500+ rows). Spreadsheet-backed content.",
+      "blocks": []
+    },
+    {
+      "name": "protocol-detail",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/references/protocols/nucleic-acid-amplification-and-expression-profiling/cdna-protocol/first-strand-cdna-synthesis-from-total-rna-or-poly-a-rna.html"
+      ],
+      "description": "Protocol/reference detail page with static table (2-column procedure steps), text paragraphs, and related protocol links. 220 protocol pages discovered across 9 categories under /references/protocols/.",
+      "blocks": []
+    },
+    {
+      "name": "reference-article",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/references/ambion-tech-support/rna-isolation/tech-notes/rnalater-recipe.html",
+        "https://www.thermofisher.com/us/en/home/references/ambion-tech-support/rtpcr-analysis/general-articles/rt--pcr--the-basics.html"
+      ],
+      "description": "Technical reference article page with text-heavy educational content, figures, and related article links. 370 URLs under /references/ambion-tech-support/ organized into general-articles/ and tech-notes/ sub-sections across 18 topic categories.",
+      "blocks": []
+    },
+    {
+      "name": "reference-handbook",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/references/molecular-probes-the-handbook.html",
+        "https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics.html",
+        "https://www.thermofisher.com/us/en/home/references/newsletters-and-journals.html"
+      ],
+      "description": "Multi-chapter educational handbook/reference with table of contents navigation, chapter pages, and technical notes. 87 URLs across molecular-probes-the-handbook (65 chapters), gibco-cell-culture-basics (22 sections), and newsletters-and-journals (22 issues).",
+      "blocks": []
+    },
+    {
+      "name": "learning-center",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/industrial/environmental/environmental-learning-center.html",
+        "https://www.thermofisher.com/us/en/home/industrial/food-beverage/food-beverage-learning-center.html",
+        "https://www.thermofisher.com/us/en/home/industrial/chromatography/chromatography-learning-center.html",
+        "https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center.html",
+        "https://www.thermofisher.com/us/en/home/industrial/microbiology/microbiology-learning-center.html",
+        "https://www.thermofisher.com/us/en/home/life-science/pcr/pcr-learning-center.html"
+      ],
+      "description": "Educational learning center hub with topic navigation, educational content cards, video resources, and application notes. 6+ instances discovered across industrial and life-science sections.",
+      "blocks": []
+    },
+    {
+      "name": "promo-offer",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/o/c/neuronal-research-products-promo.html",
+        "https://www.thermofisher.com/us/en/home/o/c/more-savings-more-discover.html",
+        "https://www.thermofisher.com/us/en/home/o/b/gene-expression-promo.html",
+        "https://www.thermofisher.com/us/en/home/o/a/cepa-promo.html",
+        "https://www.thermofisher.com/us/en/home/o/b/heartofeverylab.html"
+      ],
+      "description": "Individual promotional offer landing page with hero banner, promotional details, product highlights, and CTA buttons. 15 URLs discovered under /o/ across /o/a/, /o/b/, and /o/c/ sub-paths.",
+      "blocks": []
+    },
+    {
+      "name": "partnering",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/about-us/partnering-licensing/oem-commercial-supply.html",
+        "https://www.thermofisher.com/us/en/home/about-us/partnering-licensing/oem-commercial-supply/molecular-diagnostics-commercial-suppy.html",
+        "https://www.thermofisher.com/us/en/home/about-us/partnering-licensing/oem-commercial-supply/life-science-tools.html"
+      ],
+      "description": "Partnering and OEM commercial supply pages with hero, informational tiles, capability descriptions, and contact CTAs. 12 URLs under /about-us/partnering-licensing/ covering industry verticals (animal-health, forensics, diagnostics, etc.).",
+      "blocks": []
+    },
+    {
+      "name": "services",
+      "urls": [
+        "https://www.thermofisher.com/us/en/home/products-and-services/services.html",
+        "https://www.thermofisher.com/us/en/home/products-and-services/services/custom-services.html",
+        "https://www.thermofisher.com/us/en/home/products-and-services/services/unity-lab-services.html",
+        "https://www.thermofisher.com/us/en/home/products-and-services/services/training-services.html"
+      ],
+      "description": "Services landing and detail pages for CDMO, custom services, instrument qualification, lab services, and training. 24 URLs under /products-and-services/ including sub-service detail pages.",
+      "blocks": []
+    }
+  ]
+}
